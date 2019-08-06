@@ -1,0 +1,5 @@
+.idea
+*.swp
+*.retry
+*.DS_Store
+oracle12.2/
