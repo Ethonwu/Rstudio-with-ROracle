@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    rstudio:
+        image: ethonwu/roracle:fix
+        container_name: rstudio
+        restart: always
+        ports:
+        - 8787:8787
+        volumes:
+        - /home:/home
+        - /etc/passwd:/etc/passwd:ro
+        - /etc/group:/etc/group:ro
+        - /etc/shadow:/etc/shadow:ro
+        environment:
+        - PASSWORD=1qaz2wsx
