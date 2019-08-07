@@ -48,6 +48,7 @@ conn = dbConnect(dbDriver("Oracle"),username="USERNAME",password="PASSWORD",dbna
 dbGetQuery(conn, "Query here")
 ```
 ## TODO
-- [] ADD OracleDB images to test connect 
-- [] Test on another lib such ODBC , RJDBC....
-- [] Testing to connect another DB
+
+- [ ] ADD OracleDB images to test connect 
+- [ ] Test on another lib such ODBC , RJDBC....
+- [ ] Testing to connect another DB
