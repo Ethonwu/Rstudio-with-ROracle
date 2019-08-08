@@ -15,6 +15,8 @@ It can be use from another lib such as: ODBC, RJDBC
 3. Oracle Instantclient: 12.2
 4. DBI: 1.0.0
 5. ROracle: 1.3-1
+### Another Oracle Instantclient version
+* Instantclient 18.5, it can connect OracleDB for version 18 if want to use see [here](https://github.com/Ethonwu/Rstudio-with-ROracle/tree/master/build_on_oracle18.5)
 ## Usage
 * It is same as [here](https://github.com/rocker-org/rocker-versioned/tree/master/rstudio/3.5.1)
 * Below command is copy from [here](https://github.com/rocker-org/rocker-versioned/tree/master/rstudio/3.5.1) link, if need more option you can access link find something
@@ -27,7 +29,7 @@ docker run --rm -p 8787:8787 -e PASSWORD=yourpasswordhere ethonwu/roracle:fix
 docker run --rm \
   -p 127.0.0.1:8787:8787 \
   -e DISABLE_AUTH=true \
-  rocker/rstudio
+  ethonwu/roracle:fix
 ```
 #### Using Dockerfile Build
 1. Clone this repo
