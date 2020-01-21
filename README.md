@@ -54,4 +54,3 @@ dbGetQuery(conn, "Query here")
 * [ ] Test on another lib such ODBC , RJDBC....
 * [ ] Testing to connect another DB
 
-## 安安
